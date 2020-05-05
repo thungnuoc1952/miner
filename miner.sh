@@ -5,6 +5,6 @@ git clone https://github.com/tpruvot/cpuminer-multi.git
 cd cpuminer-multi/
 ./autogen.sh
 ./configure --with-crypto --with-curl
-sudo make
-sudo make install
+make
+make install
 
